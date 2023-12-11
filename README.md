@@ -1,4 +1,4 @@
-# Short-play-generation-record
+# 微短剧动态漫画
 ### 记录生成过程
 以视频从业者的视角探索生成动态漫画工作流，为产品的信息架构打下基础
 
@@ -28,30 +28,22 @@
 
 * 常见技巧
      * 角色设计图， character sheet， white background
+     * 画布扩充， 人物服饰维持一致风格 
 ```
 Retro Ghibli style， a young girl with golden hair tied back into a simple braid，wearing a humble dress， character sheet， white background --niji 5
 ```
-    
-     * 画布扩充， 人物服饰维持一致风格 
 ```
 full body， turnaround
 ```
+
 ## 工具合集
-Photopea https://www.photopea.com/ 
-畫質提昇網站 https://arc.tencent.com/en/ai-demos/i...
-線上去背網站 https://www.remove.bg/
-Figma https://www.figma.com/
-Figma Plugin - Split Vector https://tinyurl.com/yt2y23mx
-Pika Labs https://www.pika.art/
-Runway https://runwayml.com/
-FinalFrame https://finalframe.net/dev/
 
-
-
-     *  [提升图片画质](https://arc.tencent.com/en/ai-demos/imgRestore) 
-     *  [去除图片背景](https://www.remove.bg/zh)
-     *  [提升图片画质](https://arc.tencent.com/en/ai-demos/imgRestore) 
-     
+1. Photopea  https://www.photopea.com/ 
+2. 畫質提昇網站  https://arc.tencent.com/en/ai-demos/imgRestore
+3. 線上去背網站  https://www.remove.bg/
+4. Pika Labs  https://www.pika.art/
+5. Runway  https://runwayml.com/
+6. FinalFrame  https://finalframe.net/dev/
 
 
 
