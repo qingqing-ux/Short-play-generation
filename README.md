@@ -31,10 +31,23 @@
 ```
 Retro Ghibli style， a young girl with golden hair tied back into a simple braid，wearing a humble dress， character sheet， white background --niji 5
 ```
-     * 画布扩充， 人物服饰维持一致风格
+    
+     * 画布扩充， 人物服饰维持一致风格 
 ```
 full body， turnaround
 ```
+## 工具合集
+Photopea https://www.photopea.com/ 
+畫質提昇網站 https://arc.tencent.com/en/ai-demos/i...
+線上去背網站 https://www.remove.bg/
+Figma https://www.figma.com/
+Figma Plugin - Split Vector https://tinyurl.com/yt2y23mx
+Pika Labs https://www.pika.art/
+Runway https://runwayml.com/
+FinalFrame https://finalframe.net/dev/
+
+
+
      *  [提升图片画质](https://arc.tencent.com/en/ai-demos/imgRestore) 
      *  [去除图片背景](https://www.remove.bg/zh)
      *  [提升图片画质](https://arc.tencent.com/en/ai-demos/imgRestore) 
