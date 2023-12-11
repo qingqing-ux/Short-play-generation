@@ -22,8 +22,8 @@
 好，接着我要请你把女孩和爷爷的角色描述改写成两个 Midjiourney Prompts (使用英文)，格式类似于下面这个句子：A little girl with light brown short wavy curly hair and blue eyes。
 ```
 
-## 制作挑战
-用 AI 制作漫画，最大的挑战就是要让角色维持外观的一致性，贯穿整部漫画
+### 制作挑战
+让角色维持外观的一致性，贯穿整部漫画
 
 #### Tips
 1. 角色设计图， character sheet， white background
@@ -41,13 +41,13 @@ full body， turnaround
 ```
 etro Ghibli style, wide-angle view of a 19th-century English pasture at early morning. clear sky. sheep grazing. -ar 16:9 -fps 24 
 ```
-## 制作挑战
-用 AI 制作动画，最大的挑战就是，动画时长较短，通常只有 3~4s
+### 制作挑战
+动画时长较短，通常只有 3~4s
 
 #### Tips
 1. 注意电影独有的参数 -fps 24
-2. 可以重複送出算图的請求，讓 Pika Labs一次生成多一点影片
-3. 使用 [FinalFrame](https://finalframe.net/dev/) 页面 `.msi` 结尾的安装包擷取出影片的最後一張畫格
+2. 可以重复送出算图的請求，让 Pika Lab s一次生成多一点影片
+3. 使用 [FinalFrame](https://finalframe.net/dev/) 截取取出影片的最後一張画面，把它当成下一段动画的初始影像，延伸想要的动画長度
 
 
 
@@ -62,6 +62,9 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 
 
 
+
+
+
 ### 手动安装
 
 1. 在 [Latest Release](https://github.com/yetone/openai-translator/releases/latest) 页面下载以 `.msi` 结尾的安装包
@@ -69,17 +72,6 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 3. 如果提示不安全，可以点击 `更多信息` -> `仍要运行` 进行安装
 4. 开始使用吧！
 5. 
-
-
-## Setup
-
-```
-npm install
-```
-
-## Import as Visual Studio Code project
-
-...
 
 ### Visual Studio Code
 * TypeScript
