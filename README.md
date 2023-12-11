@@ -2,45 +2,60 @@
 ### 记录生成过程
 以视频从业者的视角探索生成动态漫画工作流，为产品的信息架构打下基础
 
+
 ## 构思分镜
-分鏡主要是用来设计画面的布局，展现角色的动作和情绪，以及控制故事整體的節奏。
-这个环节可以借助 ChatGPT ，将故事大纲丢给它，ChatGPT 就會設計好每個畫格的場景和攝影角度。
-```
-我想要請你替以下這個動畫劇情設計六個分鏡。每個分鏡要具體說明故事場景、角色行動、 攝影角度。以下是劇情內容：
-地點是19世紀英國的一個小鄉村，有個女孩正在牧場中工作，此時她在遠方看到爺爺正在返家的路上，於是女孩露出了開心的笑容。
+分镜主要是用来设计画面的布局，展现角色的动作和情绪，以及控制故事整体的节奏。 这个环节可以借助 ChatGPT ，将故事大纲丢给它，ChatGPT 就会设计好每个画格的场景和摄影角度。
+```  
+我想要请你替以下这个动画剧情设计六个分镜。每个分镜要具体说明故事场景、角色行动、 摄影角度。以下是剧情内容： 地点是19世纪英国的一个小乡村，有个女孩正在牧场中工作，此时她在远方看到爷爷正在返家的路上，于是女孩露出了开心的笑容。
 ```
 
 ## 确定绘图风格
 ...
 
 ## 制作角色概念草图
-借助 ChatGPT 给出角色體型、容貌、服飾和髮型等的建议
+借助 ChatGPT 给出角色体型、容貌、服饰和发型等的建议
 ```
-我要替這個故事製作角色概念草圖，請你幫我設計一下女孩和爺爺這兩個角色，包含他們的體型、容貌、服飾和髮型等。
+我要替这个故事制作角色概念草图，请你帮我设计一下女孩和爷爷这两个角色，包含他们的体型、容貌、服饰和发型等。
 ```
-進一步轉成 Midjourney 的 prompts，可以附上一個 Prompt 範例讓 ChatGPT 作為參考
+进一步转成 Midjourney 的 prompts，可以附上一个 Prompt 范例让 ChatGPT 作为参考
 ```
-好，接著我要請你把女孩和爺爺的角色描述改寫成两個 Midjiourney Prompts (使用英文)，格式類似於下面這個句子：A little girl with light brown short wavy curly hair and blue eyes。
+好，接着我要请你把女孩和爷爷的角色描述改写成两个 Midjiourney Prompts (使用英文)，格式类似于下面这个句子：A little girl with light brown short wavy curly hair and blue eyes。
 ```
 
 ## 制作挑战
-用 AI 製作漫畫最大的挑戰就是要讓角色維持外觀的一致性，賈穿整部漫畫
+用 AI 制作漫画，最大的挑战就是要让角色维持外观的一致性，贯穿整部漫画
 
-* 常见技巧
-     * 角色设计图， character sheet， white background
-     * 画布扩充， 人物服饰维持一致风格 
+#### Tips
+1. 角色设计图， character sheet， white background
 ```
 Retro Ghibli style， a young girl with golden hair tied back into a simple braid，wearing a humble dress， character sheet， white background --niji 5
 ```
+2. 画布扩充， 人物服饰维持一致风格 
 ```
 full body， turnaround
 ```
 
+## AI 动画
+[Pika Labs](https://www.pika.art/) 它跟 Midjourney 一样是在 Discord 的平台上运作,可以把 Midjourney 的提示文字直接拿來使用，
+
+```
+etro Ghibli style, wide-angle view of a 19th-century English pasture at early morning. clear sky. sheep grazing. -ar 16:9 -fps 24 
+```
+## 制作挑战
+用 AI 制作动画，最大的挑战就是，动画时长较短，通常只有 3~4s
+
+#### Tips
+1. 注意电影独有的参数 -fps 24
+2. 可以重複送出算图的請求，讓 Pika Labs一次生成多一点影片
+3. 使用 [FinalFrame](https://finalframe.net/dev/) 页面 `.msi` 结尾的安装包擷取出影片的最後一張畫格
+
+
+
 ## 工具合集
 
 1. Photopea  https://www.photopea.com/ 
-2. 畫質提昇網站  https://arc.tencent.com/en/ai-demos/imgRestore
-3. 線上去背網站  https://www.remove.bg/
+2. 画质提升网站  https://arc.tencent.com/en/ai-demos/imgRestore
+3. 线上抠图网站  https://www.remove.bg/
 4. Pika Labs  https://www.pika.art/
 5. Runway  https://runwayml.com/
 6. FinalFrame  https://finalframe.net/dev/
