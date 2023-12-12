@@ -1,14 +1,20 @@
 # 微短剧动态漫画
 ### 记录生成过程
 以视频从业者的视角，探索生成动态漫画的工作流，为产品的信息架构打下基础。
-
-## 确认小说主题
+* Step1 确定小说主题
+* Step2 ChatGPT 写剧本
+* Step3 AI 生角色图
+* Step4 AI 批量生成分镜图，分镜动画
+* Step5 剪映自动生成视频
+* Step6 制作视频发布
+——————————————————————————————————————————————————————————————————
+## 确定小说主题
 1. 根據小說APP（番茄小说、知乎）排行榜選文
 2. 根据对标账号选文，在 YouTube 上搜索 AI 漫畫解說
 
 ## 使用 ChatGPT 生成剧本
 
-### 指令公式
+### 本指令公式
 ```  
 角色＋文章類型＋文字風格＋人設＋故事背景＋劇情大網，先列出一個章節目錄
 ```
@@ -39,6 +45,12 @@
 ```  
 我想要请你替以下这个动画剧情设计六个分镜。每个分镜要具体说明故事场景、角色行动、 摄影角度。以下是剧情内容： 地点是19世纪英国的一个小乡村，有个女孩正在牧场中工作，此时她在远方看到爷爷正在返家的路上，于是女孩露出了开心的笑容。
 ```
+### 制作挑战
+场景图较多，挨个生成很麻烦
+
+#### Tips
+1. 使用工具[AutoJourney](https://www.pika.art/)  -> ` Add to Chrome` .這個工具可以支持批量发送 Prompt,自动排队，自动放大，自动下载。
+
 
 ## 确定绘图风格
 ...
@@ -65,13 +77,9 @@ Retro Ghibli style， a young girl with golden hair tied back into a simple brai
 ```
 full body， turnaround
 ```
-## 文字成片
-剪映出品的`文字成片`功能，可以根据文案`自动配音`、`配画面`，生成视频
-可以使用 AI 生成的图片替换视频中不符合要求的画面
 
 
-
-## AI 动画
+## 生成动画
 [Pika Labs](https://www.pika.art/) 它跟 Midjourney 一样是在 Discord 的平台上运作,可以把 Midjourney 的提示文字直接拿來使用，
 
 ```
@@ -85,6 +93,11 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 2. 可以重复送出算图的請求，让 Pika Lab s一次生成多一点影片
 3. 使用 [FinalFrame](https://finalframe.net/dev/) 截取取出影片的最後一張画面，把它当成下一段动画的初始影像，延伸想要的动画長度
 
+## 文字成片
+剪映出品的`文字成片`功能，可以根据文案`自动配音`、`配画面`，生成视频
+可以使用 AI 生成的图片替换视频中不符合要求的画面
+
+
 
 
 ## 工具合集
@@ -96,3 +109,4 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 5. Pika Labs  https://www.pika.art/
 6. Runway  https://runwayml.com/
 7. FinalFrame  https://finalframe.net/dev/
+8. AutoJourney  https://www.pika.art/
