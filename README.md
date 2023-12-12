@@ -20,19 +20,19 @@
 * 6. 劇情大綱：一個關鍵詞
 ![Snipaste_2023-12-12_10-15-20](https://github.com/qingqing-ux/Short-play-generation/assets/107176473/8c5934e8-df42-40a7-b728-1cac84f8ad88)
 
-### 提示 ChatGPT 加入对话情节
+#### 提示 ChatGPT 加入对话情节
 ```  
 將第一章展開寫，大概2000字，有對話情節，並且加入相應的場景描述
 ```
-### 提示 ChatGPT 将章节展开
+#### 提示 ChatGPT 将章节展开
 
 * 1. 每章都要發生什麼劇情内容          
 * 2. 主角都要遇到什麼人
-* 3. 產生了什麼樣的對話
+* 3. 產生了什麼樣的對話 
 
  
 ## 构思分镜
-分镜主要是用来设计画面的布局，展现角色的动作和情绪，以及控制故事整体的节奏。 这个环节可以借助 ChatGPT ，将故事大纲丢给它，ChatGPT 就会设计好每个画格的场景和摄影角度。
+分镜主要是用来设计画面的布局，展现角色的动作和情绪，以及控制故事整体的节奏。 借助 ChatGPT， 将 `第一章节` -> `分成N个分镜场景` ，它就会设计好每个画格的场景和摄影角度。并进一步转成 Midjourney 的 Prompts。
 1. 故事场景
 2. 角度行动
 3. 摄影角度
@@ -48,7 +48,7 @@
 ```
 我要替这个故事制作角色概念草图，请你帮我设计一下女孩和爷爷这两个角色，包含他们的体型、容貌、服饰和发型等。
 ```
-进一步转成 Midjourney 的 prompts，可以附上一个 Prompt 范例让 ChatGPT 作为参考
+进一步转成 Midjourney 的 Prompts，可以附上一个 Prompt 范例让 ChatGPT 作为参考
 ```
 好，接着我要请你把女孩和爷爷的角色描述改写成两个 Midjiourney Prompts (使用英文)，格式类似于下面这个句子：A little girl with light brown short wavy curly hair and blue eyes。
 ```
@@ -65,6 +65,11 @@ Retro Ghibli style， a young girl with golden hair tied back into a simple brai
 ```
 full body， turnaround
 ```
+## 文字成片
+剪映出品的`文字成片`功能，可以根据文案`自动配音`、`配画面`，生成视频
+可以使用 AI 生成的图片替换视频中不符合要求的画面
+
+
 
 ## AI 动画
 [Pika Labs](https://www.pika.art/) 它跟 Midjourney 一样是在 Discord 的平台上运作,可以把 Midjourney 的提示文字直接拿來使用，
@@ -84,30 +89,10 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 
 ## 工具合集
 
-1. Photopea  https://www.photopea.com/ 
-2. 画质提升网站  https://arc.tencent.com/en/ai-demos/imgRestore
-3. 线上抠图网站  https://www.remove.bg/
-4. Pika Labs  https://www.pika.art/
-5. Runway  https://runwayml.com/
-6. FinalFrame  https://finalframe.net/dev/
-
-
-
-
-
-
-### 手动安装
-
-1. 在 [Latest Release](https://github.com/yetone/openai-translator/releases/latest) 页面下载以 `.msi` 结尾的安装包
-2. 下载完成后双击安装包进行安装
-3. 如果提示不安全，可以点击 `更多信息` -> `仍要运行` 进行安装
-
-### Visual Studio Code
-* TypeScript
-* Example Code
-    * Chrome Storage
-
-
-Run watch mode.
-
-type `Ctrl + Shift + B`
+1. 免费生图工具  https://leonardo.ai/
+2. Photopea  https://www.photopea.com/ 
+3. 画质提升网站  https://arc.tencent.com/en/ai-demos/imgRestore
+4. 线上抠图网站  https://www.remove.bg/
+5. Pika Labs  https://www.pika.art/
+6. Runway  https://runwayml.com/
+7. FinalFrame  https://finalframe.net/dev/
