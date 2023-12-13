@@ -15,16 +15,23 @@ Steps: 25, Sampler: DPM++ 3M SDE Karras, CFG scale: 7, Seed: 1122334, Size: 1024
 #### Generated
 [女主第一幕](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%B8%80%E5%B9%95.jpeg)
 
-[女主第二幕](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%20%281%29.jpeg)
+[女主第二幕1](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%20%281%29.jpeg)
+
+
+[女主第二幕2](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%20%282%29.jpeg)
 
 ### 制作挑战
-让角色维持外观的一致性，贯穿整部漫画。手部容易变形。
+让角色维持外观的一致性，贯穿整部漫画。手部容易变形。五官不清晰时无法很好的生成面部动态.
+
 
 #### Tips
 1. 画布扩充， 人物服饰维持一致风格 
 ```
 full body， turnaround
 ```
+2. 为了更好的复刻原片，暂时采用`抠图的方式`，将`满意的形体`和`清晰的五官合并`
+
+
  
 ## 生成分镜动画
 [Pika Labs](https://www.pika.art/) 它跟 Midjourney 一样是在 Discord 的平台上运作,可以把 Midjourney 的提示文字直接拿來使用，
@@ -36,7 +43,7 @@ Prompt: The girl spoke and bowed her head,Movie lens translation
 
 [女主第一幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%B8%80%E5%B9%95%E5%8A%A8%E7%94%BB.mp4) 
 
-[女主第二幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%E5%8A%A8%E7%94%BB%20%281%29.mp4) 
+[女主第二幕动画，采用了抠图模式](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%E5%8A%A8%E7%94%BB%20%281%29.mp4) 
 
 
 ### 制作挑战
