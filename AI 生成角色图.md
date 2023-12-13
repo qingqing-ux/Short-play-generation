@@ -11,19 +11,11 @@
 Negative prompt: easynegative,lowres,bad anatomy,deformed,text,error,cropped,watermark,worst quality,low quality,normal quality,jpegartifacts,signature,watermark,username
 
 Steps: 25, Sampler: DPM++ 3M SDE Karras, CFG scale: 7, Seed: 1122334, Size: 1024x648, Model hash: c35e1054c0, Model: mistoonAnime_v20, Clip skip: 2, Eta: 0.67, Version: 1.7.0
+
+#### Generated
 [女主第一幕](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%B8%80%E5%B9%95.jpeg)
 
 [女主第二幕](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%20%281%29.jpeg)
-
-
-### 女主角动画
-#### Image + prompt
-Prompt: The girl spoke and bowed her head,Movie lens translation 
-[女主第一幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%B8%80%E5%B9%95%E5%8A%A8%E7%94%BB.mp4) 
-
-[女主第二幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%E5%8A%A8%E7%94%BB%20%281%29.mp4) 
-
-
 
 ### 制作挑战
 让角色维持外观的一致性，贯穿整部漫画。手部容易变形。
@@ -41,9 +33,16 @@ full body， turnaround
 ## 生成分镜动画
 [Pika Labs](https://www.pika.art/) 它跟 Midjourney 一样是在 Discord 的平台上运作,可以把 Midjourney 的提示文字直接拿來使用，
 
-```
-etro Ghibli style, wide-angle view of a 19th-century English pasture at early morning. clear sky. sheep grazing. -ar 16:9 -fps 24 
-```
+#### Image + prompt
+Prompt: The girl spoke and bowed her head,Movie lens translation 
+
+#### Generated
+
+[女主第一幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%B8%80%E5%B9%95%E5%8A%A8%E7%94%BB.mp4) 
+
+[女主第二幕动画](http://ryt0q68hc.hn-bkt.clouddn.com/%E8%A7%86%E9%A2%91/%E6%88%91%E5%AE%B6%E5%B8%88%E5%82%85%E8%B6%85%E5%87%B6%E5%93%92%E5%A5%B3%E4%B8%BB/%E5%A5%B3%E4%B8%BB%E7%AC%AC%E4%BA%8C%E5%B9%95%E5%8A%A8%E7%94%BB%20%281%29.mp4) 
+
+
 ### 制作挑战
 动画时长较短，通常只有 3~4s
 
