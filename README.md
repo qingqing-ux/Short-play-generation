@@ -54,7 +54,7 @@
 ### 制作挑战
 让角色维持外观的一致性，贯穿整部漫画。手部容易变形。
 
-#### Tips
+#### 解决方案
 1. 角色设计图需要含关键词 `character sheet` ` white background`  
 ```
 Retro Ghibli style， a young girl with golden hair tied back into a simple braid，wearing a humble dress， character sheet， white background --niji 5
@@ -75,7 +75,7 @@ full body， turnaround
 ### 制作挑战
 场景图较多，需要批量生成分镜图
 
-#### Tips
+#### 解决方案
 1. 使用工具[AutoJourney](https://www.pika.art/)  -> ` Add to Chrome` .這個工具可以支持批量发送 Prompt，自动排队，自动放大，自动下载。
 
 
@@ -88,7 +88,7 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 ### 制作挑战
 动画时长较短，通常只有 3~4s
 
-#### Tips
+#### 解决方案
 1. 注意电影独有的参数 -fps 24
 2. 可以重复送出算图的請求，让 Pika Labs一次生成多一点影片
 3. 使用 [FinalFrame](https://finalframe.net/dev/) 截取取出影片的最后一张画面，把它当成下一段动画的初始影像，延伸到想要的动画長度。
