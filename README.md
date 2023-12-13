@@ -72,7 +72,7 @@ full body， turnaround
 场景图较多，需要批量生成分镜图
 
 #### Tips
-1. 使用工具[AutoJourney](https://www.pika.art/)  -> ` Add to Chrome` .這個工具可以支持批量发送 Prompt,自动排队，自动放大，自动下载。
+1. 使用工具[AutoJourney](https://www.pika.art/)  -> ` Add to Chrome` .這個工具可以支持批量发送 Prompt，自动排队，自动放大，自动下载。
 
 
 ## 生成分镜动画
@@ -87,11 +87,11 @@ etro Ghibli style, wide-angle view of a 19th-century English pasture at early mo
 #### Tips
 1. 注意电影独有的参数 -fps 24
 2. 可以重复送出算图的請求，让 Pika Labs一次生成多一点影片
-3. 使用 [FinalFrame](https://finalframe.net/dev/) 截取取出影片的最後一張画面，把它当成下一段动画的初始影像，延伸想要的动画長度
+3. 使用 [FinalFrame](https://finalframe.net/dev/) 截取取出影片的最后一张画面，把它当成下一段动画的初始影像，延伸到想要的动画長度。
 
 ## 剪映自动生成视频
 剪映出品的`文字成片`功能，可以根据文案`自动配音`、`配画面`，生成视频
-可以使用 AI 生成的图片替换视频中不符合要求的画面，这样做的好处是不需要一個個手動的去对齐画面和语音
+可以使用 AI 生成的图片替换视频中不符合要求的画面，这样做的好处是不需要一個個手动的去对齐画面和语音
 
 
 ## 工具合集
