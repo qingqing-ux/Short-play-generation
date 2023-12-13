@@ -21,11 +21,7 @@ Steps: 25, Sampler: DPM++ 3M SDE Karras, CFG scale: 7, Seed: 1122334, Size: 1024
 让角色维持外观的一致性，贯穿整部漫画。手部容易变形。
 
 #### Tips
-1. 角色设计图需要含关键词 `character sheet` ` white background`  
-```
-Retro Ghibli style， a young girl with golden hair tied back into a simple braid，wearing a humble dress， character sheet， white background --niji 5
-```
-2. 画布扩充， 人物服饰维持一致风格 
+1. 画布扩充， 人物服饰维持一致风格 
 ```
 full body， turnaround
 ```
